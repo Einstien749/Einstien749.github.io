@@ -24,12 +24,12 @@ div#me img{
 div#navigator{
     width:40%;
     height:100%;
-    font-size:1.2em;
+    font-size:1em;
 }
 div#navigator input{
     width:40%;
     height:25%;
-    font-size:1.2em;
+    font-size:1em;
     padding:0px;
 }
 
