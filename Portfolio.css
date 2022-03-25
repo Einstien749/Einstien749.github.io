@@ -24,11 +24,12 @@ div#me img{
 div#navigator{
     width:40%;
     height:100%;
+    font-size:1.2em;
 }
 div#navigator input{
     width:40%;
     height:25%;
-    font-size:1em;
+    font-size:1.2em;
     padding:0px;
 }
 
@@ -56,6 +57,7 @@ div#ABout{
     justify-content:space-between;
     flex-direction:column;
     color:rgb(255,255,255);
+    font-size:1.3em
 }
 div#AboutMe{
     width:100%;
@@ -76,7 +78,7 @@ div#AboutMe h1{
 }
 div#odimayo{
     color:rgba(255,255,255,0.8);
-    font-size:1.05em;
+    font-size:1.2em;
     display:flex;
     flex-direction:column;
     height:40%;
@@ -85,7 +87,7 @@ div#odimayo{
 
 div#accoladeresume{
     color:rgba(255,255,255,0.8);
-    font-size:1.05em;
+    font-size:1.2em;
     display:flex;
     flex-direction:column;
     height:35%;
