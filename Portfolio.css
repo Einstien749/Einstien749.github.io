@@ -1,0 +1,108 @@
+body,html{
+    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,1));
+    background-repeat:no-repeat;
+    height:100%;
+    width:100%;
+}
+div#header{
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content:space-between;
+}
+div#me{
+    color:rgba(255,255,255,0.5);
+    width:50%;
+    height:100%;
+    font-size:30px;
+}
+div#me img{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+}
+div#navigator{
+    width:40%;
+    height:100%;
+}
+div#navigator input{
+    width:40%;
+    height:25%;
+    font-size:1em;
+    padding:0px;
+}
+
+div#mid{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    color:rgba(255,255,255,0.5);
+    width:100%;
+    height:40%;
+    position:relative;
+    top:7%;
+    left:0%;
+}
+div#mid div{
+    width:100%;
+    height:40%
+}
+
+
+div#ABout{
+    width:100%;
+    height:70%;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    color:rgb(255,255,255);
+}
+div#AboutMe{
+    width:100%;
+    height:15%;
+    display:flex;
+    justify-content:space-between;
+    color:rgba(255,255,255,0.8);
+    font-size:1.5em;
+}
+div#ABout img{
+    width:8%;
+    height:20%;
+}
+div#AboutMe h1{
+    position:relative;
+    left:30%;
+    top:0%;
+}
+div#odimayo{
+    color:rgba(255,255,255,0.8);
+    font-size:1.05em;
+    display:flex;
+    flex-direction:column;
+    height:40%;
+    width:100%;
+}
+
+div#accoladeresume{
+    color:rgba(255,255,255,0.8);
+    font-size:1.05em;
+    display:flex;
+    flex-direction:column;
+    height:35%;
+    width:100%;
+}
+
+a:visited{
+    color:rgb(150,150,150);
+}
+a:link{
+    color:rgba(0,255,0,0.8);
+}
+
+a:hover{
+    color:rgb(255,255,255);
+}
+a:active{
+    color:rgb(255,0,255);
+}
+
