@@ -108,3 +108,6 @@ a:active{
     color:rgb(255,0,255);
 }
 
+p{
+    text-indent:10px;
+}
