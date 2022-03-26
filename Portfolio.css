@@ -1,8 +1,6 @@
 body,html{
     background-color:rgb(0,0,0);
-    background-repeat:no-repeat;
-    backgroun-size:cover;
-    height:100vh;
+    height:100%;
     width:100%;
 }
 div#header{
@@ -29,7 +27,7 @@ div#navigator{
 }
 div#navigator input{
     width:40%;
-    height:25%;
+    height:28%;
     font-size:1em;
     padding:0px;
 }
@@ -110,5 +108,5 @@ a:active{
 }
 
 p{
-    text-indent:10px;
+    text-indent:15px;
 }
