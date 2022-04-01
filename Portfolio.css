@@ -111,3 +111,17 @@ a:active{
 p{
     text-indent:15px;
 }
+
+dialog#myprojects{
+    width:50%;
+    height:70%;
+    animation:project 1s ease-in;
+}
+@keyframes project{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(30%);
+    }
+}
