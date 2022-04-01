@@ -20,6 +20,12 @@ function Writee(text){
     document.getElementById("be").innerHTML = String(h) + text[i];
     i = i + 1;
 }
+function showProjects(){
+    document.getElementById("myprojects").show();
+}
+function closeProjects(){
+    document.getElementById("myprojects").close();
+}
 
 
 /* Continously running script*/
