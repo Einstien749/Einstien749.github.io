@@ -138,4 +138,9 @@ dialog#myprojects div input{
     left:95%;
     width:5%;
     height:8%;
+    background-color:rgb(184,134,11);
+}
+
+dialog#myprojects ul{
+    font-size:1.2em;
 }
