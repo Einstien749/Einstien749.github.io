@@ -116,6 +116,7 @@ dialog#myprojects{
     width:50%;
     height:70%;
     animation:project 1s ease-in;
+    background-color:rgb(200,200,200);
 }
 @keyframes project{
     from{
@@ -124,4 +125,17 @@ dialog#myprojects{
     to{
         transform:translateX(30%);
     }
+}
+
+dialog#myprojects div h1{
+    position:relative;
+    left:30%;
+    top:5%;
+}
+dialog#myprojects div input{
+    position:absolute;
+    top:2%;
+    left:95%;
+    width:5%;
+    height:8%;
 }
