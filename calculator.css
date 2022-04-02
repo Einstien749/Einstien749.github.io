@@ -1,0 +1,73 @@
+html,body{
+    width:720px;
+    height:100%;
+    font-family:inherit;
+    background-color:rgb(200,200,200);
+}
+div#header{
+    width:100%;
+    color:rgb(200,0,200);
+    text-align:center;
+    height:10%;
+    font-size:1.2em;
+}
+div#screen{
+    width:100%;
+    height:20%;
+    background-color:rgb(0,0,0);
+    color:rgb(255,150,150);
+    direction:ltr;
+    font-size:30px;
+    border-top:2px groove rgb(0,255,0);
+}
+div#pads{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:70%;
+    background-color:rgb(150,150,150);
+    color:rgb(255,255,255);
+    font-size:70px;
+}
+div#numbers{
+    display:flex;
+    flex-direction:column;
+    width:75%;
+    height:100%;
+}
+div#numbers div{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:25%;
+}
+div#operations{
+    display:flex;
+    flex-direction:column;
+    width:25%;
+    height:100%;
+}
+div#operations div{
+    width:100%;
+    height:20%;
+}
+div#operations div input{
+    width:100%;
+    height:100%;
+    font-size:40px;
+    background-color:rgb(150,150,150);
+}
+div#numbers div div{
+    height:100%;
+    width:33.3333333%;
+}
+div#numbers div div input{
+    height:100%;
+    width:100%;
+    font-size:40px;
+}
+@media only screen and (min-width:900px){
+    body{
+        margin-left:20%;
+    }
+}
