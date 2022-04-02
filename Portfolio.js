@@ -21,7 +21,7 @@ function Writee(text){
     i = i + 1;
 }
 function showProjects(){
-    document.getElementById("myprojects").show();
+    document.getElementById("myprojects").showModal();
 }
 function closeProjects(){
     document.getElementById("myprojects").close();
