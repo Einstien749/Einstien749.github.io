@@ -113,7 +113,7 @@ p{
 }
 
 dialog#myprojects{
-    width:50%;
+    width:80%;
     height:70%;
     animation:project 1s ease-in;
     background-color:rgb(200,200,200);
