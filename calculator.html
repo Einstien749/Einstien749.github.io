@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script type="text/javascript" src="calculator.js"></script>
+    </head>
+    <body onload=Message()>
+        <div id="header"><h1>Online Calculator</h1></div>
+        <div id="screen">
+            <p id="screenpara"></p>
+            <p id="answers"></p>
+        </div>
+        <div id="pads">
+            <div id="numbers">
+                <div>
+                    <div><input type="button" value="1" onclick=Enter("1")></div>
+                    <div><input type="button" value="2" onclick=Enter("2")></div>
+                    <div><input type="button" value="3" onclick=Enter("3")></div>
+                </div>
+                
+                <div>
+                   <div><input type="button" value="4" onclick=Enter("4")></div>
+                   <div><input type="button" value="5" onclick=Enter("5")></div>
+                   <div><input type="button" value="6" onclick=Enter("6")></div> 
+                </div>
+                
+                <div>
+                    <div><input type="button" value="7" onclick=Enter("7")></div>
+                    <div><input type="button" value="8" onclick=Enter("8")></div>
+                    <div><input type="button" value="9" onclick=Enter("9")></div>
+                </div>
+                
+                <div>
+                    <div><input type="button" value="." onclick=Enter(".")></div>
+                    <div><input type="button" value="0" onclick=Enter("0")></div>
+                    <div><input type="button" value="=" onclick=Answer()></div>
+                </div>
+                
+                
+                
+            </div>
+            <div id="operations">
+                <div><input type="button" value="DEL" onclick=Delete()></div>
+                <div><input type="button" value="/" onclick=Operation("/")></div>
+                <div><input type="button" value="X" onclick=Operation("X")></div>
+                <div><input type="button" value="-" onclick=Operation("-")></div>
+                <div><input type="button" value="+" onclick=Operation("+")></div>
+            </div>
+            
+        </div>
+    </body>
+</html>
